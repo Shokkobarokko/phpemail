@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<title>Мой сайт</title>
+	<script src="https://www.google.com/recaptcha/api.js?render=6LeBOjkaAAAAALwBdeW8uf6fHiuBROnQ7-hj2nwT"></script>
+
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LeBOjkaAAAAALwBdeW8uf6fHiuBROnQ7-hj2nwT', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.maskedinput.min.js"></script>
+</head>
+<body>
+	<div class="menu">
+		<h3>Menu</h2>
+		<a href="">Home</a>
+		<a href="">News</a>
+		<!--<a href="">Services</a>-->
+		<a href="">Designers</a>
+		<a href="">Packages</a>
+		<a href="">Contact</a>
+	</div>
+	<div class="main">
+		<h1>Interior Design</h1>
+		<div class="showcase">
+			<h2>Showcase</h2>
+			<hr>
+			<div class="images">
+				<img src="kitchenconcrete.jpg">
+				<img src="atrium.jpg">
+				<img src="livingroom.jpg">
+				<img src="diningroom.jpg">
+				<img src="bedroom.jpg">
+				<!--<img src="livingroom2.jpg">-->
+				<video src="Dancing/Dancing06022021/video1.mov" controls></video>
+
+			</div>
+		</div>
+		<!--<div class="services">
+			<h2>Services</h2>
+			<hr>
+			<p>
+				We are a interior design service that focus on what's best for your home and what's best for you!
+			</p>
+			<p>
+				Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+		</div>-->
+		<!--<div class="Designers">
+			<h2>Designers</h2>
+			<hr>
+			<p>The best team in the world.</p>
+			<p>
+				We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<p><b>Our designers are thoughtfully chosen:</b></p>
+			<div class="people">
+				<div class="worker">
+					<img src="team2.jpg">
+					<div class="description">
+						<h3>John Doe</h3>
+						<p class="position">CEO & Founder</p>
+						<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					</div>
+				</div>
+				<div class="worker">
+					<img src="team1.jpg">
+					<div class="description">
+						<h3>Jane Doe</h3>
+						<p class="position">Designer</p>
+						<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					</div>
+				</div>
+				<div class="worker">
+					<img src="team3.jpg">
+					<div class="description">
+						<h3>Mike Ross</h3>
+						<p class="position">Architect</p>
+						<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--<div class="packages">
+			<h2>Packages.</h2>
+			<hr>
+			<p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+			<div class="tariff">
+				<ul>
+					<li class="tariff_name">Basic</li>
+					<li>Floorplanning</li>
+					<li>10 hours support</li>
+					<li>Photoghraphy</li>
+					<li>20% furniture discount</li>
+					<li>Good deals</li>
+					<li><p class="price">1$</p><p class="period">Per day</p></li>
+					<li><button>Sign up</button></li>
+				</ul>
+			</div>
+			<div class="tariff pro">
+				<ul>
+					<li class="tariff_name">Pro</li>
+					<li>Floorplanning</li>
+					<li>50 hours support</li>
+					<li>Photoghraphy</li>
+					<li>50% furniture discount</li>
+					<li>GREAT deals</li>
+					<li><p class="price">3$</p><p class="period">Per day</p></li>
+					<li><button>Sign up</button></li>
+				</ul>
+			</div>
+		</div>-->
+		<div class="contact">
+			<h2>Напиши мне</h2>
+			<hr>
+			<p>Хочешь написать мне? Пиши!</p>
+			<script type="text/javascript">jQuery(function($){$("#phon").mask("+7 (999) 999-99-99");});</script>
+	
+	<!--Данные введенные пользователем обрабатываются кодом в mail.php-->
+  			<form id="cooment-form" action="mail.php" method="post">
+  	<!--	<input type="hidden" name="token" id="token">
+        <input type="hidden" name="action" id="action">     -->
+
+				<label>Имя</label>
+				<input type="text" placeholder="Имя (обязательное поле)" name="name" required>
+				<label>Номер телефона</label>
+				<input type="text" id="phon" placeholder="Номер телефона (обязательное поле)" name="phone" required>
+				<label>Электронная почта</label>
+				<input type="email" placeholder="Еmail (обязательное поле)" name="email" required>
+				<label>Сообщение</label>
+				<textarea type="text" name="message" rows="3"></textarea>
+				<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+				<input class="button" type="submit" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
